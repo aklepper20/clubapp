@@ -48,8 +48,9 @@ function StartRoom(props) {
             : "open to everyone"}
         </span>
       </p>
-      <div className={style.letGoBtn}>
+      <div>
         <button
+          className={style.letGoBtn}
           onClick={() => {
             props.setSheetCreateRoom(true);
             props.setSheetVisible(true);
