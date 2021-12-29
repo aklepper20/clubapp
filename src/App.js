@@ -27,7 +27,7 @@ function App() {
           <Routes>
             <Route path="/home" element={<Home />} />
             <Route path="/explore" element={<Explore />} />
-            <Route path="/profil" element={<Profile />} />
+            <Route path="/profile" element={<Profile />} />
           </Routes>
         </AppLayout>
       </Router>
